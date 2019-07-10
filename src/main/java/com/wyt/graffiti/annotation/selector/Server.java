@@ -14,4 +14,17 @@ public interface Server {
      * 关闭
      */
     void stop();
+
+    enum Type {
+
+        /**
+         * HTTP
+         */
+        HTTP,
+
+        /**
+         *FTP
+         */
+        FTP
+    }
 }
