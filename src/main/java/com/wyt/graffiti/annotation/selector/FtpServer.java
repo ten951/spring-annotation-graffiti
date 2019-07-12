@@ -1,9 +1,13 @@
 package com.wyt.graffiti.annotation.selector;
 
+import org.springframework.stereotype.Component;
+
 /**
  * @author Darcy
  * @date 2019-07-10 11:47
  */
+
+@Component
 public class FtpServer implements Server {
     @Override
     public void start() {
