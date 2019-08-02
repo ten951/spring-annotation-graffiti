@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * @date 2019-07-10 14:06
  */
 @Configuration
-@EnableServer(type = Server.Type.HTTP)
+@EnableServer(type = Server.Type.FTP)
 public class EnableServerBootstrap {
     public static void main(String[] args) {
         /*构建Annotation配置驱动Spring上下文*/

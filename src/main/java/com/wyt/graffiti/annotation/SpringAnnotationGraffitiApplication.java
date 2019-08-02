@@ -2,11 +2,12 @@ package com.wyt.graffiti.annotation;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.session.data.redis.config.annotation.web.http.EnableRedisHttpSession;
 
 /**
  * @author yongtianwang
  */
+@EnableRedisHttpSession
 @SpringBootApplication
 public class SpringAnnotationGraffitiApplication {
 
